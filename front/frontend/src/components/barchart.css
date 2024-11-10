@@ -1,0 +1,30 @@
+
+.bar-chart-container {
+    width: 100%;
+    max-width: 1000px;  
+    margin: 0 auto; 
+    padding: 20px;
+  }
+  
+  .bar-chart-container h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .bar-chart-container {
+      padding: 10px;
+    }
+  
+    .bar-chart-container h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  
+  .bar-chart-container canvas {
+    width: 100% !important;  
+    height: auto !important; 
+  }
+  
